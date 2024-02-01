@@ -1,0 +1,80 @@
+\documentclass[11pt, a4paper]{article}[14.04.2023]
+    \usepackage[left=2cm, top=3cm, text={17cm, 24cm}]{geometry}
+    \usepackage[utf8]{inputenc}
+    \usepackage[czech]{babel}
+    \usepackage[IL2]{fontenc}
+    \usepackage{times}
+    
+
+\begin{document}
+
+    \begin{titlepage}
+        \begin{center}
+            {\Huge \textsc{Vysoké učení technické v Brně}\\[0.5em]}
+            {\huge \textsc{Fakuklta informačních technologií}}
+            \vspace{\stretch{0.382}}
+
+            {\LARGE Typografie a publikování -- 4.projekt\\[0.4em]}
+            {\huge Bibliografické citace}
+
+            \vspace{\stretch{0.618}}
+            {\Large \today \hfill Roman Machala}
+
+        \end{center}
+    \end{titlepage}
+
+\section{Úvod}
+
+
+Pod pojmem typografie a publikování si lidé neorientující se v tomto oboru představí například psaní článků a vydávání novin a časopisů.
+Ovšem skrývá se pod ním mnohem více, než si člověk dokáže představit.
+
+\section{Typografie a publikace obecně}
+
+
+S vývinem člověka jako takového přišla i řeč a písmo. S písmem se objevil nový druh komunikace mezi lidmi, díky kterému jsme schopni uchovávat naše myšlenky a znalosti po celá staletí.
+Nemá smysl tady zacházet do úplných detailů, pojďme si proto říci nějaké nejdůležitější věci týkající se typografie.
+Typografie se nezabývá pouze historií, ale taky jak by měly dané dokumenty vypadat \cite{font}. Řeší, pro jakou skupinu jsou určeny a tomu se pak snaží přizpůsobovat jednotlivé požadavky na daný dokument.
+Návodů jak vytvořit ten správný text je na internetu mnoho, mně se ovšem zalíbil trošku detailnější postup zde \cite{rybicka2}.
+
+\section{Prostředí pro tvorbu dokumentů}
+
+
+První prostředí pro tvorbu dokumentů, které snad kohokoliv napadne je \textit{Microsoft Word}. Je to poměrně rozšířený a oblíbený nástroj ale ani zdaleka není jediný.
+Hodí se pro mnoho dokumentů, ale se zvyšující se náročností daného zadání mi přijde méně vhodnější. Pro náročněšjší sázení jsou vhodnější profesionální prostředí jako je například \LaTeX.
+Tyto dvě zmíněné prostředí bychom mohli porovnávat donekonečna a jejich výhody a nevýhody již byly několikrát popsány. Ve výsledku to samozřejmě záleží na osobních preferencích autora \cite{baka}.
+
+\section{Prostředí \LaTeX}
+
+
+Prostředí \LaTeX\;je jedním z nejrozšířenějších prostředí pro tvorbu dokumentů. Poskytuje nám řadu nových možností a funkcionalit.
+Může být ovšem trošku náročnější na pochopení a na naučení se jej plynule používat. Obávat se toho ovšem nikdo nemusí, jelikož návodů, jak správně uchopit toto prostředí je mnoho.
+Nejrozšířenější a nejoblíbenější, především mezi studenty Českých výsokých škol je pak \cite{rybicka1}.
+
+Toto prostředí, jak již bylo dříve zmíněno je především vhodné pro tvorbu složitějších textů.
+Hlavním problémem ze subjektivního hlediska je tvorba tabulek. V prostředí \textit{Microsoft Word} lze jednoduše vložit tabulky i z prostředí \textit{Microsoft Excel}, kdežto v \LaTeX{u}
+\;je mnohdy boj vytvořit i jednoduchou tabulku. Na druhou stranu \LaTeX vyniká především v sázení matematických, fyzikálních a chemických vzorců, kde \textit{Microsoft Word} může trošku zaostávat.
+Další přednosti prostředí \LaTeX{u} jsou popsány např. zde \cite{diplomka}.
+
+\section{\LaTeX\;a studenti}
+
+Již jednou bylo zmíněné, že \LaTeX\;je oblíbený i mezi studenty. Je tomu především u studentů se zaměřením na 
+nějaké technické obory, ovšem nemusí tomu tak být pořád.
+Studenti jej využívají pro tvorbu technických zpráv, různých protokolů ale především pro tvorbu bakalářských a diplomových prací. 
+Největším kámenem úrazu, nejen u studentů ale v typografii obecně, jsou citace ostatních autorů a dodržování autorského práva, tedy rozlišit, co bylo převzato a co ne.
+Skvělým návodem pro nejen citaci obecně, ale i pro citaci v prostředí \LaTeX\;naleznete zde \cite{davidekm}.
+\\
+\begin{quotation}
+    Psaní dokumentů podléhá mnoha typografickým normám, tj. nemůžete si psát dokumenty, jak se vám zlíbí. \cite{Jirkovystranky} 
+\end{quotation}
+
+\newpage
+
+\bibliographystyle{czechiso}
+\renewcommand{\refname}{Literatura}
+\bibliography{citace}
+\end{document}
+     
+    
+
+    
