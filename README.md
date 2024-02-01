@@ -2,7 +2,7 @@
 Řešení projektů do předmětu Typografie a publikování
 ## Osobní hodnocení předmětu
 Předmět jako takový mě poměrně zaujal a práce na projektech byla zajímavá. Přednášky probíhaly jednou za 2 týdny a na každé přednášce se zadal projekt na vypracování, takže bylo poměrně hondě času na jeho zpracování.
-Naučíte se základní dovednosti v latexu, ktere si poměrně hodí do dalších předmětů na vypracování technické zprávy (není to nutnost, ale za mě to ma určitě jiný dojem, než zpráva ve wordu). Předmět určitě doporučuji.
+Naučíte se základní dovednosti v latexu, které se poměrně hodí do dalších předmětů např. pro vypracování technické zprávy (není to nutnost, ale za mě to ma určitě jiný dojem, než zpráva ve wordu). Předmět určitě doporučuji.
 
 ## Hodnocení jendotlivých projektů a přiložená zpráva k hodnocení
 
